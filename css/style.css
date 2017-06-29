@@ -1,6 +1,15 @@
 body {
 	font-family: 'Rock Salt', cursive;
-
+	background-color: #211;
+  color: #eee;
+}
+hr {
+	width: 50%;
+}
+header {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 .section-title {
   font-size: 100px;
@@ -10,4 +19,16 @@ body {
 .section-blurb {
 	text-align: center;
 	font-size: 35px;
+	padding-bottom: 2%;
+}
+.center-pic {
+  width: auto;
+  height: 450px;
+}
+.about-me-section {
+	margin: 15px;
+	display: flex;
+	justify-content: center;
+	width: 90%;
+
 }
